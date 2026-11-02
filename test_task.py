@@ -8,6 +8,7 @@ from task import Task
 class TestTask(unittest.TestCase):
     def test_work(self):
         task = Task(identifier=1, size=300)
+
         task.work()
 
         np.testing.assert_allclose(
