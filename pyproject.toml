@@ -5,7 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10,<3.16"
 dependencies = [
-    "numpy>=2.5.4",
+    "numpy>=1.26.4; python_version < '3.13'",
+    "numpy>=2.1.0; python_version >= '3.13'",
 ]
 
 [project.scripts]
